@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "221207954990",
+    "project_id": "airbeb-91b7e",
+    "storage_bucket": "airbeb-91b7e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221207954990:android:ec5ffedaa2778b974881bf",
+        "android_client_info": {
+          "package_name": "com.example.airbeb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB86SJ38DacTr0GxfU4RFoiPuL6fj6yp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
