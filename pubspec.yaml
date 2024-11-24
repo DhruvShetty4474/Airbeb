@@ -39,7 +39,6 @@ dependencies:
   cloud_firestore: ^5.5.0
   google_sign_in: ^6.2.2
   firebase_auth: ^5.3.3
-  flutter_any_logo: ^1.1.1
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +66,8 @@ flutter:
   assets:
      - assets/fingerprint_login.png
      - assets/mobile_login_bro.png
+     - assets/google_icon_login.png
+     - assets/apple-icon-login.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

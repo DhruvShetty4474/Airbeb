@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 
 // Have to make the button reusable.
 
-class WelcoomeScreenButton extends StatelessWidget
+class WelcomeScreenButton extends StatelessWidget
 {
-  final VoidCallback onTab;
+  final Function onTab;
   final String label;
   final Color backgroundColor;
   final Color foregroundColor;
 
 
 
-  const WelcoomeScreenButton({
+  const WelcomeScreenButton({
     super.key,
     required this.onTab,
     required this.label,
@@ -37,7 +37,7 @@ class WelcoomeScreenButton extends StatelessWidget
       ),
       child: ElevatedButton(
           onPressed: (){
-            onTab;
+            onTab();
           },
           style: ElevatedButton.styleFrom(
             minimumSize: const Size(double.infinity, 60),
@@ -47,10 +47,6 @@ class WelcoomeScreenButton extends StatelessWidget
             foregroundColor: foregroundColor,
             elevation: 3.5,
             shadowColor: Colors.grey[900],
-            // shape: RoundedRectangleBorder(
-            //   side: const BorderSide(color: Colors.black),
-            //   borderRadius: BorderRadius.circular(50),
-            // ),
           ),
           child: Text( label ,style: const TextStyle(
             // color: Colors.black,
